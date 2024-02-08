@@ -1,0 +1,364 @@
+.numbers{
+    background-color: #7c0f28;
+    color: #fff;
+    padding:25px  0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.numbers h2,
+ .ingredients h2 ,
+ .pride h2,
+.paralex h2,
+.blogs h2 {
+    
+    font-size: 35px;
+    font-weight: bold;
+    width: 80%;
+    margin: 10px 0px;
+    color: #77132b;
+    font-family: 'Tajawal', sans-serif;
+    line-height: 50px;
+}
+.numbers h2{
+    color: #fff !important;
+    margin-left: 25px;  
+}
+.numbers .row{
+    margin: 10px 0px ;
+}
+.numbers p,
+.ingredients p,
+.pride p,
+.paralex p,
+.blogs p
+    {
+    text-transform: uppercase;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+
+}
+
+/* css to the pride section */
+.pride{
+    background-color: transparent;
+    padding:25px  0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;   
+    margin-top: 60px;
+}
+.pride img , .ingredients img{
+    max-width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.pride button,.ingredients button{
+    background-color: #a82d49;
+    border:  1px solid #a82d49;
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    margin-top: 20px;
+    transition: .2e ease;
+    -webkit-transition: .2e ease;
+    -moz-transition: .2e ease;
+    -ms-transition: .2e ease;
+    -o-transition: .2e ease;
+}
+.pride button a ,.ingredients button a{
+    display: block;
+    color: #fff;
+    font-family: 'Tajawal', sans-serif;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pride button:hover a ,.ingredients button:hover a{
+    color: #a82d49;
+}
+.pride button:hover ,.ingredients button:hover{
+    background-color: #fff;
+}
+/* start css to ingredients section */
+.ingredients{
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+    text-align: left;
+    overflow: hidden;
+}
+
+.ingredients ul{
+    padding: 0px;
+}
+.ingredients ul li {
+    list-style-type: square;
+    text-decoration: none;
+   font-family: 'Tajawal', sans-serif;
+   color: #333;
+   margin-top: 10px;
+}
+/*  start css to paralex section*/
+.paralex {
+    background: url(../../assets/1.jpg) center no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    text-align: center;
+    
+}
+.paralex row{
+    margin: 50px 0px;
+}
+.paralex h2{
+    width: 100%;
+    margin: 20px 0px;  
+}
+.paralex p{
+    color: #444;
+    margin: 20px 0px;
+    line-height: 32px;
+}
+.paralex a{
+    color: #000;
+    text-decoration: none;
+    margin: 29px 0px;
+    font-size: 25px;
+    font-family: 'Tajawal', sans-serif;
+}
+.paralex a:hover{
+    color: #7c0f28;
+}
+.blogs button {
+    background-color: #740c24;
+    text-align: center;
+    margin-top: 20px 0px;
+}
+
+/*  start css to blogs section*/
+.blogs{
+    margin-top: 50px ;
+    padding: 20px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.blogs .row {
+    text-align: center;
+    margin: 25 0px;
+}
+.blogs h2{
+   font-size: 45px;
+   width: 100% !important;
+}
+.blogs p{
+    text-align: center;
+    line-height: 32px;    
+}
+.blogs .box {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #f6f6f6;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.blogs .box img{
+    max-width: 100%;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.blogs .box h5{
+    color: #77132b;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 25px;
+    margin: 15px 0px;
+}
+.blogs .box span{
+    display: block;
+    color: #444;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 16px;
+    margin: 10px 0px ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+.blogs .box h6{
+    color: #740c24;
+    font-size:35px;
+    font-weight: bold;
+    font-family: 'Tajawal', sans-serif;
+
+}
+.blogs button{ width: 140px; height: 40px; text-align: center; background-color: #740c24; border:  1px solid #740c24; box-sizing:border-box; margin: 10px 0px ; transition:.3s ease-in-out ; -webkit-transition:.3s ease-in-out ; -moz-transition:.3s ease-in-out ; -ms-transition:.3s ease-in-out ; -o-transition:.3s ease-in-out ;
+}
+.blogs button a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.blogs button:hover{
+    background-color: transparent;
+}
+.blogs button:hover a{
+    color: #740c24;
+}
+/* start css to the slider sectin */
+.slider {
+    background-color: #a82d49;
+    border: 1px solid #a82d49;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    margin: 50px 0px;
+}
+.slider .carousel{
+    background-color: #fff;
+    margin: 40px 0px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+  
+    padding: 25px 0px;
+}
+.slider img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px 0px;
+    margin-bottom: 150px;
+}
+.slider .carousel-caption{
+    margin: 60px 0px ;
+}
+.slider .carousel-caption h3{
+    color: #77132b;
+    display: block;
+    margin: 15px 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+.slider .carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;   
+    margin-left: 15%;
+    list-style: none ;
+    color: #000;  
+}
+.slider .carousel-indicators button{
+    width: 20px;
+    height: 20px;
+    background-color: #77132b;
+    border: 1px solid #77132b;
+    margin: 5px 5px 15px 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+ 
+
+.slider h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+/* start css to the textp sectin */
+.textp{
+    width: 100%;
+    height: 100%;
+    margin: 50px 0px;
+    text-align: center;
+}
+.textp h1 {
+    color: #740c24;
+    margin: 20px 0px 50px 0px ;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    font-size: 80pxpx;
+}
+.textp h5{
+    color: #333;
+    letter-spacing: 1.6px;
+    text-align: left;
+    word-spacing: 1.6px;
+}
+
+
+
+/* start css to the footer sectin */
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: #740c24;
+    margin-top: 50px;
+    text-align: center;
+
+}
+footer h1{
+
+    color: #fff;
+    font-size: 55px;
+    line-height: 60px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    margin: 30px 15px 30px 0px;
+    
+}
+footer a:hover{
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #740c24;
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -ms-transition: .2s ease-in-out;
+    -o-transition: .2s ease-in-out;
+}
+
+
